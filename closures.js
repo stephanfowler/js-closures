@@ -28,8 +28,7 @@ execAll(fns);
 function bad() {
     for (i = 0; i < 3; i += 1) {
         fns[i] = function() {
-            var c = i;
-            console.log(c);
+            console.log(i);
         };
     } 
 }
