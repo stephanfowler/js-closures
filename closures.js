@@ -53,7 +53,7 @@ function closeOver(c) {
 }
 execAll(fns);
 
-// Best. Outputs 0 1 2
+// Best?? Outputs 0 1 2
 [0,1,2].forEach(function(i) {
     fns[i] = function() { console.log(i); };
 });
